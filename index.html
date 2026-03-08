@@ -14,6 +14,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -28,10 +29,10 @@
 </div>
 
 <ul class="nav-links" id="navLinks">
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Paket</a></li>
-<li><a href="#">Kontak</a></li>
+<li><a href="#hero">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#paket">Paket</a></li>
+<li><a href="#kontak">Kontak</a></li>
 </ul>
 
 <div class="hamburger" onclick="toggleMenu()">
@@ -45,7 +46,7 @@
 </header>
 
 
-<section class="hero">
+<section class="hero" id="hero">
 
 <div class="hero-content">
 
@@ -95,19 +96,19 @@ Sekarang saatnya **UMKM di Jawa Timur juga naik kelas dan tampil profesional di 
 <div class="paket-grid">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d">
+<img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d" loading="lazy" alt="Website UMKM">
 <h3>Landing Page</h3>
 <p>Website 1 halaman untuk promosi produk atau bisnis UMKM.</p>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" loading="lazy" alt="Website UMKM">
 <h3>Website Bisnis</h3>
 <p>Website lengkap dengan halaman produk, profil bisnis dan kontak.</p>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1559028012-481c04fa702d">
+<img src="https://images.unsplash.com/photo-1559028012-481c04fa702d"loading="lazy" alt="Website UMKM">
 <h3>Website + SEO</h3>
 <p>Website yang dioptimasi agar muncul di Google dan mendatangkan pelanggan.</p>
 </div>
@@ -197,6 +198,30 @@ Sekarang saatnya **UMKM di Jawa Timur juga naik kelas dan tampil profesional di 
 
 
 <script src="script.js"></script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ProfessionalService",
+ "name": "AliWebDev",
+ "url": "https://alian95-creator.github.io/aliwebdev",
+ "logo": "https://alian95-creator.github.io/aliwebdev/img/logo.png",
+ "description": "Jasa pembuatan website UMKM di Madiun dan Ponorogo. Website profesional yang membantu bisnis tampil di Google.",
+ "areaServed": {
+ "@type": "Place",
+ "name": "Jawa Timur"
+ },
+ "address": {
+ "@type": "PostalAddress",
+ "addressLocality": "Madiun",
+ "addressRegion": "Jawa Timur",
+ "addressCountry": "Indonesia"
+ },
+ "sameAs": [
+ "https://wa.me/081400648141"
+ ]
+}
+</script>
 
 </body>
 </html>
